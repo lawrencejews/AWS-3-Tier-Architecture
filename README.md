@@ -1,4 +1,4 @@
-### AWS 3 Tier Architecture with Terraform
+### AWS 3 Tier Architecture with Terraform Modules
 ![VPC Architecture](VPC-3-Tier.png)
 Terraform build with AWS web services to provision resources
 #### Resources Created
