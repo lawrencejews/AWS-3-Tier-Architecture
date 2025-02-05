@@ -1,6 +1,14 @@
 ### AWS 3 Tier Architecture with Terraform
 Terraform build with AWS web services to provision resources
-#### Terraform Execution Commands
+![VPC Architecture](VPC-#-Tier.png)
+#### Resources Created
+- Create VPC
+- Create Public and Private Subnets
+- Create Internet Gateway and Associate to VPC
+- Create NAT Gateway in Public Subnet
+- Create Public Route Table, Add Public Route via Internet Gateway and Associate Public Subnet
+- Create Private Route Table, Add Private Route via NAT Gateway and Associate Private Subnet
+#### Terraform Basic Execution Commands
 ##### Terraform Initialize
 - terraform init
 ##### Observation:
