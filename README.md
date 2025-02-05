@@ -1,6 +1,6 @@
 ### AWS 3 Tier Architecture with Terraform
 Terraform build with AWS web services to provision resources
-![VPC Architecture](VPC-#-Tier.png)
+![VPC Architecture](VPC-3-Tier.png)
 #### Resources Created
 - Create VPC
 - Create Public and Private Subnets
